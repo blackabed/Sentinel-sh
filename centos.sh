@@ -16,8 +16,3 @@ sudo rpm -i --nodigest SentinelAgent_linux_x86_64_v24_2_1_8.rpm
 
 # Start the Sentinel agent
 /opt/sentinelone/bin/sentinelctl control start
-
-wget https://raw.githubusercontent.com/blackabed/Sentinel-sh/main/ubuntu.sh -O install_sentinel.sh && chmod +x install_sentinel.sh && ./install_sentinel.sh
-
-wget https://s.id/sent1_deb
-wget https://s.id/sent1_deb -O install_sentinel.sh && chmod +x install_sentinel.sh && ./install_sentinel.sh

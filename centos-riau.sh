@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/blackabed/Sentinel-sh/main/riau.txt
 sudo rpm -i --nodigest SentinelAgent_linux_x86_64_v24_2_1_8.rpm
 
 # Set the management token
-/opt/sentinelone/bin/sentinelctl management token set $(cat SiteToken.txt)
+/opt/sentinelone/bin/sentinelctl management token set $(cat riau.txt)
 
 # Start the Sentinel agent
 /opt/sentinelone/bin/sentinelctl control start
